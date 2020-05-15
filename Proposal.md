@@ -1,5 +1,14 @@
 # F I R E
 
+## Logistics
+**Scrum Master:** 
+Andrés Ortiz Montalvo
+
+**Project Team:**
+Billy Kaufman | Andrés Ortiz Montalvo | Ernestine Moreno
+
+
+
 ## Project Description
 
 Fire is a portal for education, information, and reference of cannabis strains and their utilities. Through an intuitive interface, visitors are invited to explore a curated database of popular strains.
@@ -62,3 +71,5 @@ _https://www.leafly.com/start-exploring_
 | All Strains Galleries        |    Props    |
 | Strain Information Show Page |    State    |
 | Footer                       |     N/A     |
+
+## Back-end File Structure
