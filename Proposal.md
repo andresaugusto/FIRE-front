@@ -73,3 +73,5 @@ _https://www.leafly.com/start-exploring_
 | Footer                       |     N/A     |
 
 ## Back-end File Structure
+
+![Back-end File Structure](/planning/readme-images/BACKEND_FILE_STRUCTURE.png)
