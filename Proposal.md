@@ -47,7 +47,7 @@ _https://www.leafly.com/start-exploring_
 
 ## Component Hierarchy
 
-![Component Hierarchy](/planning/readme-images/component-tree-wireframe-png)
+![Component Hierarchy](/planning/readme-images/component-tree-wireframe-png.png)
 
 #### Component Details
 
