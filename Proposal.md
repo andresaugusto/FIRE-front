@@ -7,11 +7,12 @@ Andrés Ortiz Montalvo
 **Project Team:**
 Billy Kaufman | Andrés Ortiz Montalvo | Ernestine Moreno
 
-
+**Project Overview:**
+Fullstack application being developed for educational purposes, using the MERN stack and in conjunction with Create-React-App. 
 
 ## Project Description
 
-Fire is a portal for education, information, and reference of cannabis strains and their utilities. Through an intuitive interface, visitors are invited to explore a curated database of popular strains.
+Fire is a portal used primarily as a reference for educational and informational purposes of cannabis strains and their utilities. Through an intuitive interface, users are invited to explore a curated database of popular strains.
 
 ## Wireframes
 
@@ -72,6 +73,13 @@ _https://www.leafly.com/start-exploring_
 | Strain Information Show Page |    State    |
 | Footer                       |     N/A     |
 
-## Back-end File Structure
+## Back-End File Structure
 
 ![Back-end File Structure](/planning/readme-images/BACKEND_FILE_STRUCTURE.png)
+
+#### Back-End Objectives and Technologies Used
+- Take existing front-end app to develop and integrate back-end using Node, Express, and Mongoose API with at least 1 non-user model.
+- Implement (CRUD) Create, Read, Update, and Destroy functionality throughout the app
+- Generate tests for each route using Mocha/Chai/Supertest
+
+
