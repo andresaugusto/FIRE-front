@@ -42,7 +42,7 @@ const StrainInformation = ({ match }) => {
 			<h2 className='details-strain-name'>{strain.name}</h2>
 			<div className='details-container'>
 				<img
-					src='https://leafly-production.imgix.net/https%3A%2F%2Fleafly-public.s3-us-west-2.amazonaws.com%2Fproducts%2Fphotos%2FKhfvHOfbSZGyD2uYs0F7_blue-dream-seeds_large.png?ixlib=rails-4.0.0&w=490&h=490&fit=crop&bg=FFFFFF&fm=jpg&q=80&s=108bc0d379afc4988806a6073e26c3fb'
+					src={strain.mainImage}
 					className='details-image'
 					alt=''
 				/>
@@ -68,6 +68,9 @@ const StrainInformation = ({ match }) => {
 				<li className='details-property'>Description :</li>
 				<li className='details-value'>{strain.info}</li>
 			</div>
+
+					<li className='details-property'>Description :</li>
+					<li className='details-value'>{strain.info}</li>
 			<Link to={`/strains/${match.params.id}/edit`}>
 				<button>Update Strain</button>
 			</Link>
