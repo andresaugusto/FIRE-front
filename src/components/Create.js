@@ -51,7 +51,6 @@ const StrainCreate = () => {
 	}
 	return (
 		<>
-<<<<<<< HEAD
 			<div className='create-form-header'>
 				<img
 					className='strain-form-bg'
@@ -64,11 +63,6 @@ const StrainCreate = () => {
 				</h3>
 				{error && <p>Something went wrong... Please try again!</p>}
 			</div>
-=======
-			<h2>We greatly appreciate all of our contributors!</h2>
-			<h3>Please fill out the form below to add a strain to our database.</h3>
-			{error && <p>Something went wrong... Please try again!</p>}
->>>>>>> built modal
 			<StrainForm
 				strain={strain}
 				handleChange={handleChange}

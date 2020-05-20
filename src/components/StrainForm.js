@@ -82,7 +82,6 @@ const StrainForm = ({ strain, handleSubmit, handleChange }) => {
 				id='smellAndFlavor'
 			/>
 
-<<<<<<< HEAD
 			<label htmlFor='effect' className='form-title'>
 				Effect
 			</label>
@@ -95,26 +94,6 @@ const StrainForm = ({ strain, handleSubmit, handleChange }) => {
 				required
 				id='effect'
 			/>
-=======
-		<label htmlFor='effect'>Effect</label>
-		<input
-			placeholder='Effect'
-			value={strain.effect}
-			name='effect'
-			onChange={handleChange}
-			required
-			id='effect'
-		/>
-		<label htmlFor='info'>Description</label>
-		<input
-			placeholder='Description'
-			value={strain.info}
-			name='info'
-			onChange={handleChange}
-			required
-			id='info'
-		/>
->>>>>>> built modal
 
 			<label htmlFor='effect' className='form-title'>
 				Description

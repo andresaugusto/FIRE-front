@@ -63,17 +63,11 @@ const StrainEdit = ({ match }) => {
 	}
 	return (
 		<>
-<<<<<<< HEAD
 			<div className='edit-form-header'>
 				<h2>We greatly appreciate all of our contributors!</h2>
 				<h4>Please fill out the form below to update {strain.name}.</h4>
 				{error && <p>Something went wrong... Please try again!</p>}
 			</div>
-=======
-			<h2>We greatly appreciate all of our contributors!</h2>
-			<h4>Please fill out the form below to update {strain.name}.</h4>
-			{error && <p>Something went wrong... Please try again!</p>}
->>>>>>> built modal
 			<StrainForm
 				strain={strain}
 				handleChange={handleChange}

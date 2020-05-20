@@ -16,35 +16,31 @@ const App = () => {
 	return (
 		<>
 			<Modal isShowing={isShowing} hide={toggle} />
-<<<<<<< HEAD
-
-=======
->>>>>>> built modal
 			<header className='app-header'>
 				<h1>f i r e</h1>
 				<div className='nav-button'>
-					<Link to='/'>
-						<h1>home</h1>
-					</Link>
-					<h1>{'\u00b7'}</h1>
-					<Link to='/create'>
-						<h1>add strain</h1>
-					</Link>
-					<h1>{'\u00b7'}</h1>
+						<Link to='/'>
+							<h1>home</h1>
+						</Link>
+						<h1>{'\u00b7'}</h1>
+						<Link to='/create'>
+							<h1>add strain</h1>
+						</Link>
+						<h1>{'\u00b7'}</h1>
 
-					<Link to='/strains'>
-						<h1>all strains</h1>
-					</Link>
+						<Link to='/strains'>
+							<h1>all strains</h1>
+						</Link>
 				</div>
 			</header>
 			<main>
-				<Switch>
-					<Route exact path='/' component={Home} />
-					<Route exact path='/create' component={Create} />
-					<Route exact path='/strains/:id/edit' component={Edit} />
-					<Route exact path='/strains/:id' component={StrainInformation} />
-					<Route exact path='/strains' component={StrainsList} />
-				</Switch>
+					<Switch>
+						<Route exact path='/' component={Home} />
+						<Route exact path='/create' component={Create} />
+						<Route exact path='/strains/:id/edit' component={Edit} />
+						<Route exact path='/strains/:id' component={StrainInformation} />
+						<Route exact path='/strains' component={StrainsList} />
+					</Switch>
 			</main>
 		</>
 	);

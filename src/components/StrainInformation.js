@@ -65,8 +65,6 @@ const StrainInformation = ({ match }) => {
 					<li className='details-property'>Effect :</li>
 					<li className='details-value'>{strain.effect}</li>
 				</ul>
-				<li className='details-property'>Description :</li>
-				<li className='details-value'>{strain.info}</li>
 			</div>
 
 					<li className='details-property'>Description :</li>

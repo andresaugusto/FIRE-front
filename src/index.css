@@ -9,55 +9,58 @@ body {
 	text-align: center;
 }
 
+p {
+	color: white;
+}
+
 /* Modal */
 .modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1040;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-  opacity: .5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1040;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	opacity: 0.5;
 }
 
 .modal-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1050;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  outline: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1050;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	outline: 0;
 }
 
 .modal {
-  z-index: 100;
-  background: white;
-  position: relative;
-  margin: 1.75rem auto;
-  border-radius: 3px;
-  max-width: 500px;
-  padding: 2rem;
+	z-index: 100;
+	background: white;
+	position: relative;
+	margin: 1.75rem auto;
+	border-radius: 3px;
+	max-width: 500px;
+	padding: 2rem;
 }
 
 .modal-header {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .modal-close-button {
-  font-size: 1.4rem;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  opacity: .3;
-  cursor: pointer;
-  border: none;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	opacity: 0.3;
+	cursor: pointer;
+	border: none;
 }
-
 
 button {
 	font-size: 1rem;
@@ -249,7 +252,6 @@ a:hover {
 }
 
 .strain-form {
-<<<<<<< HEAD
 	margin: 10vmin;
 	justify-content: center;
 	align-items: center;
@@ -310,10 +312,6 @@ a:hover {
 	height: 100vh;
 	background-color: #000;
 	opacity: 0.5;
-=======
-	margin: 0 10vmin 0 10vmin;
-	max-width: 100vmin;
->>>>>>> built modal
 }
 
 .modal-wrapper {
@@ -361,7 +359,7 @@ a:hover {
 .modal-close-button:hover {
 	background-color: rgb(125, 128, 152);
 	color: rgba(255, 255, 255, 0.8);
-	border: 2px solid  rgba(255, 255, 255, 0.612);;
+	border: 2px solid rgba(255, 255, 255, 0.612);
 }
 
 input {
