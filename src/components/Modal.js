@@ -19,7 +19,11 @@ const Modal = ({ isShowing, hide }) => {
 								<button
 									className='modal-close-button'
 									onClick={hide}>
+<<<<<<< HEAD
 									confirm
+=======
+									CONFIRM
+>>>>>>> built modal
 								</button>
 								<a href='http://www.google.com'>
 									If not, please come back later.

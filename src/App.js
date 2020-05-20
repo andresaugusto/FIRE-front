@@ -16,7 +16,10 @@ const App = () => {
 	return (
 		<>
 			<Modal isShowing={isShowing} hide={toggle} />
+<<<<<<< HEAD
 
+=======
+>>>>>>> built modal
 			<header className='app-header'>
 				<h1>f i r e</h1>
 				<div className='nav-button'>
