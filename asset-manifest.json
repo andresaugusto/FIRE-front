@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/andresaugusto/FIRE-front/static/css/main.e5aff868.chunk.css",
-    "main.js": "/andresaugusto/FIRE-front/static/js/main.a7d56594.chunk.js",
-    "main.js.map": "/andresaugusto/FIRE-front/static/js/main.a7d56594.chunk.js.map",
-    "runtime-main.js": "/andresaugusto/FIRE-front/static/js/runtime-main.adad8ec6.js",
-    "runtime-main.js.map": "/andresaugusto/FIRE-front/static/js/runtime-main.adad8ec6.js.map",
-    "static/js/2.9ba9eb6e.chunk.js": "/andresaugusto/FIRE-front/static/js/2.9ba9eb6e.chunk.js",
-    "static/js/2.9ba9eb6e.chunk.js.map": "/andresaugusto/FIRE-front/static/js/2.9ba9eb6e.chunk.js.map",
-    "index.html": "/andresaugusto/FIRE-front/index.html",
-    "precache-manifest.e33d394970684086dc6540742023d01a.js": "/andresaugusto/FIRE-front/precache-manifest.e33d394970684086dc6540742023d01a.js",
-    "service-worker.js": "/andresaugusto/FIRE-front/service-worker.js",
-    "static/css/main.e5aff868.chunk.css.map": "/andresaugusto/FIRE-front/static/css/main.e5aff868.chunk.css.map",
-    "static/js/2.9ba9eb6e.chunk.js.LICENSE.txt": "/andresaugusto/FIRE-front/static/js/2.9ba9eb6e.chunk.js.LICENSE.txt"
+    "main.css": "/FIRE-front/static/css/main.e5aff868.chunk.css",
+    "main.js": "/FIRE-front/static/js/main.a7d56594.chunk.js",
+    "main.js.map": "/FIRE-front/static/js/main.a7d56594.chunk.js.map",
+    "runtime-main.js": "/FIRE-front/static/js/runtime-main.16455928.js",
+    "runtime-main.js.map": "/FIRE-front/static/js/runtime-main.16455928.js.map",
+    "static/js/2.9ba9eb6e.chunk.js": "/FIRE-front/static/js/2.9ba9eb6e.chunk.js",
+    "static/js/2.9ba9eb6e.chunk.js.map": "/FIRE-front/static/js/2.9ba9eb6e.chunk.js.map",
+    "index.html": "/FIRE-front/index.html",
+    "precache-manifest.a904c6a10046637a7d0c6fb4deaf868e.js": "/FIRE-front/precache-manifest.a904c6a10046637a7d0c6fb4deaf868e.js",
+    "service-worker.js": "/FIRE-front/service-worker.js",
+    "static/css/main.e5aff868.chunk.css.map": "/FIRE-front/static/css/main.e5aff868.chunk.css.map",
+    "static/js/2.9ba9eb6e.chunk.js.LICENSE.txt": "/FIRE-front/static/js/2.9ba9eb6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.adad8ec6.js",
+    "static/js/runtime-main.16455928.js",
     "static/js/2.9ba9eb6e.chunk.js",
     "static/css/main.e5aff868.chunk.css",
     "static/js/main.a7d56594.chunk.js"
