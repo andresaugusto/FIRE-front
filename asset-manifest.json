@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FIRE-front/static/css/main.455a4f8c.chunk.css",
-    "main.js": "/FIRE-front/static/js/main.4da04ac7.chunk.js",
-    "main.js.map": "/FIRE-front/static/js/main.4da04ac7.chunk.js.map",
+    "main.js": "/FIRE-front/static/js/main.a96efaa6.chunk.js",
+    "main.js.map": "/FIRE-front/static/js/main.a96efaa6.chunk.js.map",
     "runtime-main.js": "/FIRE-front/static/js/runtime-main.16455928.js",
     "runtime-main.js.map": "/FIRE-front/static/js/runtime-main.16455928.js.map",
     "static/js/2.9ba9eb6e.chunk.js": "/FIRE-front/static/js/2.9ba9eb6e.chunk.js",
     "static/js/2.9ba9eb6e.chunk.js.map": "/FIRE-front/static/js/2.9ba9eb6e.chunk.js.map",
     "index.html": "/FIRE-front/index.html",
-    "precache-manifest.6d0808851f60214b7d48160cb5415f7a.js": "/FIRE-front/precache-manifest.6d0808851f60214b7d48160cb5415f7a.js",
+    "precache-manifest.50c09a2d019e3f87e10472d92f9142a4.js": "/FIRE-front/precache-manifest.50c09a2d019e3f87e10472d92f9142a4.js",
     "service-worker.js": "/FIRE-front/service-worker.js",
     "static/css/main.455a4f8c.chunk.css.map": "/FIRE-front/static/css/main.455a4f8c.chunk.css.map",
     "static/js/2.9ba9eb6e.chunk.js.LICENSE.txt": "/FIRE-front/static/js/2.9ba9eb6e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.16455928.js",
     "static/js/2.9ba9eb6e.chunk.js",
     "static/css/main.455a4f8c.chunk.css",
-    "static/js/main.4da04ac7.chunk.js"
+    "static/js/main.a96efaa6.chunk.js"
   ]
 }
