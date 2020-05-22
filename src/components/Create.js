@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom';
 import { APIURL } from '../config';
 import StrainForm from './StrainForm.js';
 
+// Hou comment: nice job using functional components with hooks throughout your project!
 const StrainCreate = () => {
 	const initialStrainState = {
 		name: '',
@@ -20,16 +21,17 @@ const StrainCreate = () => {
 	const [createdId, setCreatedId] = useState(null);
 	const [error, setError] = useState(false);
 
-	const handleChange = (e) => {
-		e.persist();
+	// Hou comment: use a more descriptive variable name
+	const handleChange = (event) => {
+		event.persist();
 		setStrain({
 			...strain,
 			[e.target.name]: e.target.value,
 		});
 	};
 
-	const handleSubmit = (e) => {
-		e.preventDefault();
+	const handleSubmit = (event) => {
+		event.preventDefault();
 		const url = `${APIURL}/strains`;
 
 		fetch(url, {

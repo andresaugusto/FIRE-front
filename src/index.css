@@ -1,3 +1,17 @@
+/* Hou comment: 
+Consider organizing your files by component rather than by function:
+
+Put all of your js/css/test files together in the same component folder.
+E.g.
+
+src
+	|-components
+		|- Create
+				|- Create.js
+				|- Create.css
+				|- Create.test.js
+*/
+
 body {
 	background: url(https://i.imgur.com/SR04reG.jpeg) bottom left no-repeat;
 	/* background: url(https://download.hipwallpaper.com/desktop/1920/1080/97/87/gC7Wu6.jpg) top left no-repeat;  */

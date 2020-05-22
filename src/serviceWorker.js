@@ -1,3 +1,5 @@
+// Hou comment: delete this file if it's not needed
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 

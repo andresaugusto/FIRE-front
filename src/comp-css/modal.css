@@ -43,7 +43,7 @@
 	justify-content: center;
 	margin: 1vmin 0 15vmin 0;
 }
-
+/* Hou comment: I'd try to avoid styling with tag selectors in general. Use class selectors instead. Read https://frontstuff.io/you-need-to-stop-targeting-tags-in-css */
 a {
 	display: block;
 }

@@ -65,23 +65,21 @@ const StrainEdit = ({ match }) => {
 		return <Redirect to={`/strains/${createdId}`} />;
 	}
 	return (
-		<>
-			<div className='edit-form-header'>
-				<h2 className='page-title'>Strain Editor</h2>
-				<h2 className='form-header-1'>
-					We greatly appreciate all of our contributors!
-				</h2>
-				<h2 className='form-header-2'>
-					Please use the form below to update {strain.name}.
-				</h2>
-				{error && <p>Something went wrong... Please try again!</p>}
-			</div>
-			<StrainForm
-				strain={strain}
-				handleChange={handleChange}
-				handleSubmit={handleSubmit}
-			/>
-		</>
+		<div className='edit-form-header'>
+			<h2 className='page-title'>Strain Editor</h2>
+			<h2 className='form-header-1'>
+				We greatly appreciate all of our contributors!
+			</h2>
+			<h2 className='form-header-2'>
+				Please use the form below to update {strain.name}.
+			</h2>
+			{error && <p>Something went wrong... Please try again!</p>}
+		</div>
+		<StrainForm
+			strain={strain}
+			handleChange={handleChange}
+			handleSubmit={handleSubmit}
+		/>
 	);
 };
 
