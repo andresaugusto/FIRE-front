@@ -16,7 +16,7 @@ const Modal = ({ isShowing, hide }) => {
 							<div className='modal-content'>
 								<h1 className='modal-header'>| i r e</h1>
 								<p className='modal-text'>
-									Before we get started, we need to verify that you're 21+. If
+									Before we get started, we need to verify that you're 21+ years of age. If
 									so, please press confirm to continue.
 								</p>
 								<a

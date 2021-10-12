@@ -97,8 +97,8 @@ const Home = ({ strains, scrollUp }) => {
 					</div>
 
 					<div className='section'>
-						<h2 className='section-title'>Explore Random</h2>
-						<div id='overflow'>
+						<h2 className='section-title'>Explore</h2>
+						<div className='overflow'>
 							{randomArray.map((strain) => (
 								<div key={strain._id}>
 									<Link to={`/strains/${strain._id}`}>
