@@ -136,6 +136,7 @@ input {
 	overflow: auto;
 	display: flex;
 	flex-direction: row;
+	column-gap: 2vmin;
 	/* height: 30vmin; */
 }
 
@@ -150,7 +151,7 @@ input {
 }
 
 .image-card {
-	height: 30vmin;
+	height: 40vmin;
 	width: 30vmin;
 	overflow: hidden;
 	border: 4px white;
@@ -162,9 +163,6 @@ input {
 
 .overflow-image {
 	width: 200%;
-	/* min-height: 100%; */
-	/* min-width: 100%; */
-	/* max-width: 200%; */
 	transition: .15s ease-in-out;
 }
 

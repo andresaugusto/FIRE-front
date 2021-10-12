@@ -38,26 +38,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-input > select {
-	/* color: red; */
-	/* border-width: 0.1vmin;
-	max-height: 200px;
-	border-radius: 0vmin;
-	border-color: rgb(255, 255, 255);
-	background: rgba(0, 0, 0, 0.2);
-	margin: 0 0 5vmin 0;
-	font-size: 3vmin;
-	color: rgb(255, 255, 255);
-	font-weight: 450;
-	letter-spacing: 0.3vmin;
-	text-shadow: 0vmin 0vmin 0.2vmin black;
-	list-style: none;
-	text-align: left;
-	margin-top: 1vmin;
-	font-family: Georgia, 'Times New Roman', Times, serif; */
-
-}
-
 .form-input {
 	border-width: 0.1vmin;
 	max-height: 200px;
