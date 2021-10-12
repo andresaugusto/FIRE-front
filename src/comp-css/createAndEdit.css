@@ -26,6 +26,7 @@
 }
 
 .form-title {
+	display: block;
 	margin: 0;
 	font-size: 4vmin;
 	color: rgb(255, 255, 255);

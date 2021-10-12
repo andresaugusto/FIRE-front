@@ -7,9 +7,11 @@ body {
 	background-color: rgba(0, 0, 0, 0.646);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+		/* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif; */
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 0.3vmin;
 	margin: 0 auto;
 	text-align: center;
 	text-shadow: 0vmin 0vmin 1vmin black;
@@ -72,6 +74,10 @@ input {
 	overflow: hidden;
 }
 
+#homeHeader:hover {
+	background-size: cover;
+}
+
 #homeHeader > h1 {
 	font-size:  6vmin;
 	text-decoration: overline;
@@ -130,6 +136,7 @@ input {
 	overflow: auto;
 	display: flex;
 	flex-direction: row;
+	column-gap: 2vmin;
 	/* height: 30vmin; */
 }
 
@@ -144,23 +151,27 @@ input {
 }
 
 .image-card {
-	height: 30vmin;
+	height: 40vmin;
 	width: 30vmin;
 	overflow: hidden;
 	border: 4px white;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 .overflow-image {
-	max-height: 150%;
+	width: 200%;
 	transition: .15s ease-in-out;
 }
 
 .overflow-image:hover {
-	max-height: 160%;
+	transform: scale(1.05);
+	/* min-height: 105%;
+	max-width: 125%;
+	min-width: 25%; */
+	/* min-width: 40vmin; */
 }
 
 .plain-text {
